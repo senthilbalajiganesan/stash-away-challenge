@@ -10,7 +10,9 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      let response = await fetch("http://starlord.hackerearth.com/TopRamen");
+      let response = await fetch(
+        "https://code-editor-simpleterms.herokuapp.com/get/top-ramen"
+      );
       let data = await response.json();
       changeData(data);
       changeFectchedData(data);
