@@ -9,4 +9,42 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
   min-width: 300px;
+  max-width: 300px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  min-width: 300px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.search-slt {
+  display: block;
+  font-size: 0.875rem;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius: 0;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
 }
